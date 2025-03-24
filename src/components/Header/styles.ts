@@ -5,14 +5,12 @@ export const HeaderContainer = styled.header`
   /* padding: 2.5rem 0 7.5rem 0; */
 `;
 
-
 // 
 export const HeaderContent = styled.div`
 
   width:100%;
   display:flex;
   justify-content:space-between;
-  background-color:white;
   align-items:center;
   padding: 1.875rem 0 1.875rem 0;
 

@@ -1,11 +1,11 @@
 import { Header } from "../../components/Header";
-import { Card } from "./components/Card";
+import { Profile } from "./components/Profile";
 
 export function Home(){
   return(
     <>
      <Header/>
-     <Card/>
+     <Profile/>
     </>
    
   )
