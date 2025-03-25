@@ -1,10 +1,10 @@
 import { SearchFormContainer } from "./styles";
 
 export function Search(){
-    return (
+    return(
+
       <SearchFormContainer>
         <input type="text" placeholder="Buscar conteúdo"/>
       </SearchFormContainer>
     )
-  
 }

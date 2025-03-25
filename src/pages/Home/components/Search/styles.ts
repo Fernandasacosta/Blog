@@ -5,13 +5,8 @@ export const SearchFormContainer = styled.form`
   padding: 7rem 0 3rem 0rem;
   justify-content:center;
   gap:1rem;
- 
- 
-
-
 
   input {
-  
     background: ${props => props.theme["base-input"]};
     color:  ${props => props.theme["base-label"]};
     width:50%;
@@ -19,12 +14,5 @@ export const SearchFormContainer = styled.form`
     border:none;
     border-radius:0.5rem;
     padding-left:2rem;
-
-    
-
-
-    /* &::placeholder {
-      padding-left:2rem;
-    } */
   }
 `

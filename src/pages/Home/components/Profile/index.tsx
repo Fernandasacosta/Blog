@@ -2,8 +2,6 @@ import { Bio, Info, ProfileContainer, ProfileContent, Section } from "./styles";
 import ProfileImg from '/src/assets/avatar.png';
 import GithubIcon from '/src/assets/icon/github.svg';
 
-
-
 export function Profile(){
   return(
     <>
