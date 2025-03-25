@@ -2,6 +2,8 @@ import { Bio, Info, ProfileContainer, ProfileContent, Section } from "./styles";
 import ProfileImg from '/src/assets/avatar.png';
 import GithubIcon from '/src/assets/icon/github.svg';
 
+
+
 export function Profile(){
   return(
     <>
@@ -21,8 +23,8 @@ export function Profile(){
              <p>Tristique volutpat pulvinar vel massa, pellentesque egestas. Eu viverra massa quam dignissim aenean malesuada suscipit. Nunc, volutpat pulvinar vel mass.</p>
 
             <Info>
-                <span><img src={GithubIcon}/>texto</span>
-                <span><img src={GithubIcon}/>texto</span>
+                <span><img src={GithubIcon}  style={{ width: '20px', height: '20px' }}  />texto</span>
+                <span><img src={GithubIcon}  style={{ width: '20px', height: '20px' }} />texto</span>
             </Info>
             
             

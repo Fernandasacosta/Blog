@@ -42,6 +42,12 @@ export const Info = styled.div`
   display:flex;
   justify-content:flex-start;
   gap:1rem;
+
+  span { 
+    display:flex;
+    align-items:center;
+    gap:0.5rem;
+  }
 `
 
 export const Bio = styled.div`
